@@ -16,11 +16,11 @@ Equilateral if all sides are equal, isosceles if two sides are equal and scalene
 It is not a triangle shows up when two sides are less than the third side.
 
 
-##Setup/Installation requirements
+## Setup/Installation requirements
 One needs to install Java script.
 
 
-##Behaviour Driven Development
+## Behaviour Driven Development
 
 |  Behaviour                     |  Input                  | Output                |
 | ------------------------------ | :----------------------:| ---------------------:|
