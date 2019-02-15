@@ -1,14 +1,22 @@
+function b1() {
+  var t1=document.getElementById("triangle1").value;
+  var t2=document.getElementById("triangle2").value;
+  var t3=document.getElementById("triangle3").value;
 
-var a = prompt("Enter your first side:")
-var b = prompt("Enter your second side:")
-var c = prompt("Enter your third side:")
+  var a = parseInt(t1);
+  var b = parseInt(t2);
+  var c = parseInt(t3);
 
-if (a==b && b==c && a==c){
-alert("It is an equilateral triangle")
-}else if (a==b && b!=c || a==c && a!=b){
-  alert("It is an isosceles triangle")
-}else if (a!=b!=c || a+b>c || c+b>a || c+a>b){
-  alert ("It is a scalene triangle.")
-}else {
-  alert("It is not a triangle at all.")
+if (a===b && b===c && a===c){
+  alert("It is an equilateral triangle");
+  }
+  else if (a===b || a===c || b===c) {
+  alert("It is an isosceles triangle");
+  }
+  else if (a!==b || a!==c || b!==c){
+  alert ("It is a scalene triangle.");
+  }
+  else { ((a+b)<=c || (a+c)<=b || (b+c)<=a)
+  alert("It is not a triangle at all.");
+  }
 }
