@@ -21,6 +21,7 @@ One needs to install Java script.
 
 
 ##Behaviour Driven Development
+
 |  Behaviour                     |  Input                  | Output                |
 | ------------------------------ | :----------------------:| ---------------------:|
 | It is an equilateral triangle. | side(4) side(4) side(4) | true                  |
