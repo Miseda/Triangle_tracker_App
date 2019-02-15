@@ -6,7 +6,8 @@ function b1() {
   var a = parseInt(t1);
   var b = parseInt(t2);
   var c = parseInt(t3);
-
+if((a+b>c) && (a+c>b) && (b+c>a)){
+  alert ("It is a triangle.")
 if (a===b && b===c && a===c){
   alert("It is an equilateral triangle");
   }
@@ -16,7 +17,9 @@ if (a===b && b===c && a===c){
   else if (a!==b || a!==c || b!==c){
   alert ("It is a scalene triangle.");
   }
-  else  { ((a+b)<=c || (a+c)<=b || (b+c)<=a)
+
+}
+  else{
   alert("It is not a triangle at all.");
   }
 }
