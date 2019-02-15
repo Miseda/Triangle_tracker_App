@@ -1,7 +1,7 @@
 # Triangle tracker
 
 
-#### This is an application where one can find out whether the type of triangle they have.
+#### This is an application where one can find out the type of triangle they have.
 
 
 #### By ALEX MISEDA MUMBO
@@ -21,12 +21,12 @@ One needs to install Java script.
 
 
 ##Behaviour Driven Development
-|  Behaviour                   |  Input                  | Output
-|------------------------      |-------------------------|----------------------
-|It is an equilateral triangle.| side(4) side(4) side(4) | true
-|It is an isosceles triangle.  | side(3) side(3) side(2) | true       
-|It is a scalene triangle.     | side(4) side(3) side(2) | true        
-|It is not a triangle at all.  | side(0) side(0) side(0) | true      
+|  Behaviour                   |  Input                  | Output                |
+|------------------------------|:-----------------------:|----------------------:|
+|It is an equilateral triangle.| side(4) side(4) side(4) | true                  |
+|It is an isosceles triangle.  | side(3) side(3) side(2) | true                  |
+|It is a scalene triangle.     | side(4) side(3) side(2) | true                  |
+|It is not a triangle at all.  | side(0) side(0) side(0) | true                  |
 
 
 ## Technologies Used
@@ -38,4 +38,4 @@ If you run into any issues you can contact me at (0711826763).
 
 ### License
 
-MIT (c) {2018} 
+MIT (c) {2018}
