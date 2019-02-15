@@ -16,7 +16,7 @@ if (a===b && b===c && a===c){
   else if (a!==b || a!==c || b!==c){
   alert ("It is a scalene triangle.");
   }
-  else { ((a+b)<=c || (a+c)<=b || (b+c)<=a)
+  else  { ((a+b)<=c || (a+c)<=b || (b+c)<=a)
   alert("It is not a triangle at all.");
   }
 }
