@@ -22,7 +22,7 @@ One needs to install Java script.
 
 ##Behaviour Driven Development
 |  Behaviour                     |  Input                  | Output                |
-| ------------------------------ |:-----------------------:|----------------------:|
+| ------------------------------ | :----------------------:| ---------------------:|
 | It is an equilateral triangle. | side(4) side(4) side(4) | true                  |
 | It is an isosceles triangle.   | side(3) side(3) side(2) | true                  |
 | It is a scalene triangle.      | side(4) side(3) side(2) | true                  |
